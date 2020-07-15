@@ -1,0 +1,58 @@
+
+<ion-content>
+  
+  <div class="header"
+    slot="fixed">
+    <div class="votlar ion-activatable"
+      role="button"
+      (click)="voltarClicked()">
+    <ion-icon name="close-outline"></ion-icon>
+    </div>
+  </div>
+
+  <h1>
+    Caso Improvavável
+  </h1>
+
+  <div class = "veredito">
+    Baseado em suas respostas, é provável que essa situação NÃO se enquadre como caso suspeito de 
+    doença pelo coronavirus 2019 (COVID-19). Mantenha as condutas de precaucão e prevenção, 
+    praticando a etiqueta respiratória:
+  </div>  
+
+  <div class="pre-itens">
+    Ao se deslocar para uma unidade de saúde, siga as seguintes medidas de proteção individual e 
+    etiqueta respiratória:
+  </div>
+
+  <div class="item" >Lave as mãos com frequência com água e sabão ou higienize com álcool gel 70%.</div>
+  <div class="item" >Cubra a boca e nariz com um lenço de papel ao tossir e espirrar e jogue no lixo após o uso, ou proteja com o antebraço (nunca com as mãos).</div>
+  <div class="item" > Evite tocar nos olhos, nariz e boca com as mãos não lavadas.</div>
+  <div class="item" >Evite locais com aglomeração de pessoas.</div>
+  <div class="item" >Não compartilhe objetos de uso pessoal.</div>
+  <div class="item" >Evite contato próximo com pessoas resfriadas ou que estejam com sintomas de gripe.</div>
+
+  <div class="dicas-noticias">
+    <div class="dicas ion-activatable"
+         role="button"
+         (click)="verDicas()">
+      <div class="icone"></div>
+      <div class="titulo">Dicas</div>
+      <div class="sub-titulo">O que você precisa saber e fazer</div>
+    </div>
+    <div class="noticias ion-activatable"
+         role="button"
+         (click)="verNoticias()">
+      <div class="icone"></div>
+      <div class="titulo">Notícias</div>
+      <div class="sub-titulo">Informe-se com informações oficiais</div>
+    </div>
+  </div>
+
+  <div class="ok ion-activatable"
+  role="button"
+  (click)="voltarClicked()">
+  OK
+  </div>
+
+</ion-content>

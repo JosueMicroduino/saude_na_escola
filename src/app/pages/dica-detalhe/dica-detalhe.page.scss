@@ -1,0 +1,155 @@
+ion-content {
+  --padding-top: calc(70px + var(--ion-safe-area-top));
+  --padding-bottom: 20px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+}
+
+.header {
+  padding-top: var(--ion-safe-area-top);
+  height: calc(60px + var(--ion-safe-area-top));
+  width: 100%;
+  background-color: rgba(white, .9);
+
+  .votlar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    ion-icon {
+      font-size: 21px;
+      color: #808080;
+    }
+  }
+}
+
+
+
+.icone-trans {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Como se transmite.svg');
+}
+
+.icone-fake {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Fake news.svg');
+}
+
+.icone-diaog {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Como é feito o diagnóstico.svg');
+}
+
+.icone-previnir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Como se previne.svg');
+}
+
+.icone-info {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Informações para viajantes.svg');
+}
+
+.icone-corona {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/O que são coronavirus.svg');
+}
+
+.icone-sintomas {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Quais sao os sintomas.svg');
+}
+
+.icone-mascara {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Quando usar máscara.svg');
+}
+
+.icone-noti {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Vigilancia e notificação.svg');
+}
+
+.icone-vacina{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  background-color: #ABD8FF;
+  background-image: url('/assets/images/dicas/Vacina copy.svg');
+}
+
+.titulo {
+  margin: 30px 0 20px 0;
+  color: #16222F;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.67px;
+  line-height: 28px;
+}
+
+.texto {
+  color: #2B3D51;
+  font-size: 16px;
+  letter-spacing: -0.56px;
+  line-height: 21px;
+}

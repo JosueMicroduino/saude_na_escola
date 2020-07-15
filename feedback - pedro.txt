@@ -1,0 +1,5 @@
+- Navbar
+	- Notícias: Acho que blog é melhor que o twitter (que nem temos);
+	- Acresentar aba de "Notificações" no final;
+	- Consulta: Alterar o questionário ("Como você está se sentindo) e transferi-lo da aba início para a aba Consulta. Depois do questionário podemos encaminhar ou não para a consulta;
+	- 

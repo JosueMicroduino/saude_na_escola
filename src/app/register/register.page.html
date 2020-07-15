@@ -1,0 +1,56 @@
+<ion-header>
+	<ion-toolbar>
+	  <ion-title>REGISTRO</ion-title>
+	</ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+	  <ion-list>
+		  <ion-item>
+			<ion-label position="stacked">Nome completo</ion-label>
+			<ion-input type="text" [(ngModel)]="username"></ion-input>
+		  </ion-item>
+
+		  <ion-item>
+			<ion-label position="stacked">Nome do filho(a)</ion-label>
+			<ion-input type="text" [(ngModel)]="filho"></ion-input>
+		  </ion-item>
+
+		  <ion-item>
+			<ion-label position="stacked">Escola em que seu filho(a) estuda</ion-label>
+			<ion-input type="text" [(ngModel)]="escola"></ion-input>
+		  </ion-item>
+
+		  <ion-item>
+			<ion-label position="stacked">E-mail</ion-label>
+			<ion-input type="email" [(ngModel)]="useremail"></ion-input>
+		  </ion-item>
+	  
+
+		  <h1>
+
+		  </h1>
+		
+		
+			<span class="Senha">A sua senha precisa conter pelo menos uma letra maiuscula e um número (:</span>
+		  
+
+		  <h1>
+
+		  </h1>
+
+		
+		  <ion-item>
+			<ion-label position="stacked">Password</ion-label>
+			<ion-input type="password" [(ngModel)]="password"></ion-input>
+		  </ion-item>
+
+		  <ion-item>
+			<ion-label position="stacked">Confirm Password</ion-label>
+			<ion-input type="password" [(ngModel)]="cpassword"></ion-input>
+		  </ion-item>
+		
+		</ion-list>
+  		<ion-button fill="solid" expand="block" color="dark" (click)="register()">Registrar</ion-button>
+  </ion-content>
+

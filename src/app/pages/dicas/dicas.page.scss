@@ -1,0 +1,611 @@
+ion-content {
+  --padding-top: calc(120px + var(--ion-safe-area-top));
+  --padding-bottom: 80px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+
+  .diagnostico-prevenir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: -10px;
+
+    .diagnostico,
+    .prevenir {
+      overflow: hidden;
+
+      padding: 10px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      margin: 10px;
+      width: calc(50% - 20px);
+      height: 160px;
+      border-radius: 17px;
+      text-align: center;
+
+      &.ion-activated:before {
+        border-radius: 17px;
+      }
+
+      .icone {
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 70px;
+        background-color: transparent;
+        background-image: url('/assets/images/dicas/Como é feito o diagnóstico.svg');
+      }
+
+      .titulo {
+        margin: 10px 0 5px 0;
+
+        color: #16222F;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.39px;
+        line-height: 16px;
+      }
+
+      .sub-titulo {
+        color: #6591B8;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.35px;
+        text-align: center;
+        line-height: 14px;
+
+        max-width: 80%;
+      }
+
+      &.diagnostico {
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+      }
+
+      &.prevenir {
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+
+        .icone {
+          background-image: url('/assets/images/dicas/Como se previne.svg');
+        }
+
+        .sub-titulo {
+          color: #92B1CC;
+        }
+      }
+    }
+  }
+  .viajar-coronavirus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: -10px;
+
+    .viajar,
+    .coronavirus {
+      overflow: hidden;
+
+      padding: 10px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      margin: 10px;
+      width: calc(50% - 20px);
+      height: 160px;
+      border-radius: 17px;
+      text-align: center;
+
+      &.ion-activated:before {
+        border-radius: 17px;
+      }
+
+      .icone {
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 70px;
+        background-color: transparent;
+        background-image: url('/assets/images/dicas/Informações para viajantes.svg');
+      }
+
+      .titulo {
+        margin: 10px 0 5px 0;
+
+        color: #16222F;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.39px;
+        line-height: 16px;
+      }
+
+      .sub-titulo {
+        color: #6591B8;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.35px;
+        text-align: center;
+        line-height: 14px;
+
+        max-width: 80%;
+      }
+
+      &.viajar {
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+      }
+
+      &.coronavirus{
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+
+        .icone {
+          background-image: url('/assets/images/dicas/O que são coronavirus.svg');
+        }
+
+        .sub-titulo {
+          color: #92B1CC;
+        }
+      }
+    }
+  }
+  .sintomas-mascara {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: -10px;
+
+    .sintomas,
+    .mascara {
+      overflow: hidden;
+
+      padding: 10px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      margin: 10px;
+      width: calc(50% - 20px);
+      height: 160px;
+      border-radius: 17px;
+      text-align: center;
+
+      &.ion-activated:before {
+        border-radius: 17px;
+      }
+
+      .icone {
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 70px;
+        background-color: transparent;
+        background-image: url('/assets/images/dicas/Quais sao os sintomas.svg');
+      }
+
+      .titulo {
+        margin: 10px 0 5px 0;
+
+        color: #16222F;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.39px;
+        line-height: 16px;
+      }
+
+      .sub-titulo {
+        color: #6591B8;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.35px;
+        text-align: center;
+        line-height: 14px;
+
+        max-width: 80%;
+      }
+
+      &.sintomas {
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+      }
+
+      &.mascara{
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+
+        .icone {
+          background-image: url('/assets/images/dicas/Quando usar máscara.svg');
+        }
+
+        .sub-titulo {
+          color: #92B1CC;
+        }
+      }
+    }
+  }
+
+  .vacina-notificacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: -10px;
+
+    .vacina,
+    .notificacao {
+      overflow: hidden;
+
+      padding: 10px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      margin: 10px;
+      width: calc(50% - 20px);
+      height: 160px;
+      border-radius: 17px;
+      text-align: center;
+
+      &.ion-activated:before {
+        border-radius: 17px;
+      }
+
+      .icone {
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 70px;
+        background-color: transparent;
+        background-image: url('/assets/images/dicas/Vacina copy.svg');
+      }
+
+      .titulo {
+        margin: 10px 0 5px 0;
+
+        color: #16222F;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.39px;
+        line-height: 16px;
+      }
+
+      .sub-titulo {
+        color: #6591B8;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.35px;
+        text-align: center;
+        line-height: 14px;
+
+        max-width: 80%;
+      }
+
+      &.vacina {
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+      }
+
+      &.notificacao {
+        &.ion-activated:before {
+          background-color: rgba(#B5D8F7, .4);
+        }
+
+        border: 1px solid #B5D8F7;
+        box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+
+        .icone {
+          background-image: url('/assets/images/dicas/Vigilancia e notificação.svg');
+        }
+
+        .sub-titulo {
+          color: #92B1CC;
+        }
+      }
+    }
+  }
+
+}
+
+.transmitir-fakenews {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: -10px;
+
+  .transmitir,
+  .fakenews {
+    overflow: hidden;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 10px;
+    width: calc(50% - 20px);
+    height: 160px;
+    border-radius: 17px;
+    text-align: center;
+
+    &.ion-activated:before {
+      border-radius: 17px;
+    }
+
+    .icone {
+      width: 100px;
+      height: 100px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto 70px;
+      background-color: transparent;
+      background-image: url('/assets/images/dicas/Como se transmite.svg');
+    }
+
+    .titulo {
+      margin: 10px 0 5px 0;
+
+      color: #16222F;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: -0.39px;
+      line-height: 16px;
+    }
+
+    .sub-titulo {
+      color: #6591B8;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.35px;
+      text-align: center;
+      line-height: 14px;
+
+      max-width: 80%;
+    }
+
+    &.transmitir {
+      &.ion-activated:before {
+        background-color: rgba(#B5D8F7, .4);
+      }
+
+      border: 1px solid #B5D8F7;
+      box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+    }
+
+    &.fakenews {
+      &.ion-activated:before {
+        background-color: rgba(#B5D8F7, .4);
+      }
+
+      border: 1px solid #B5D8F7;
+      box-shadow: 0 5px 13px 0 rgba(0, 136, 255, 0.13);
+
+      .icone {
+        background-image: url('/assets/images/dicas/Fake news.svg');
+      }
+
+      .sub-titulo {
+        color: #92B1CC;
+      }
+    }
+  }
+}
+
+
+
+
+@media (min-width: 540px) {
+  ion-content {
+    --padding-start: calc(45% - 200px);
+    --padding-end: calc(45% - 200px);
+  }
+}
+
+
+
+.header {
+  padding: calc(60px + var(--ion-safe-area-top)) 20px 0 20px;
+  background-color: rgba(white, .9);
+  width: 100%;
+
+  transition: all ease 0.2s;
+
+  &.change-header {
+    padding: calc(20px + var(--ion-safe-area-top)) 20px 0 20px;
+
+    h2 {
+      opacity: 0;
+    }
+  }
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+}
+
+.dicas-titulo {
+  font-weight: 400;
+  font-size: 22px;
+  color: #16222F;
+  letter-spacing: -0.64px;
+  line-height: 19px;
+
+  span {
+    font-weight: 800;
+  }
+}
+
+.dicas-sub-titulo {
+  font-weight: 500;
+  font-size: 13px;
+  color: #8498AE;
+  letter-spacing: 0.01px;
+  text-align: left;
+  line-height: 19px;
+}
+
+.dicas {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+  // background-color: yellow;
+
+  .coluna {
+    width: calc(50% - 10px);
+
+    &.esquerda {
+      margin-right: 20px;
+      // background-color: red;
+    }
+
+   // &.direita {
+      // background-color: blue;
+   // }
+  }
+
+  &.skeleton {
+    margin: -10px;
+    width: calc(100% + 20px);
+  }
+
+  .dica {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+    &.skeleton {
+      margin: 10px;
+      width: calc(50% - 20px);
+      flex: auto;
+    }
+
+    padding: 15px;
+    margin-bottom: 20px;
+
+    width: 100%;
+    min-height: 180px;
+    background: #DBEEFF;
+    border-radius: 15px;
+
+    font-weight: 800;
+    font-size: 18px;
+    color: #1F2C3A;
+    letter-spacing: -0.56px;
+    text-align: left;
+    line-height: 22px;
+
+    border: 1px solid white;
+
+    &.skeleton {
+      background-color: rgba(#eaeaea, .4);
+    }
+
+    &.ion-activated {
+      color: #0088FF;
+      border: 1px solid #0088FF;
+    }
+
+    &.ion-activated:before {
+      background-color: rgba(white, .3);
+    }
+
+    .icone {
+      margin-bottom: 10px;
+      flex: none;
+      width: 74px;
+      height: 74px;
+      background-size: 74px auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      background-color: #ABD8FF;
+    }
+  }
+}
+
+
+.estado-vazio {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  .imagem {
+    margin: 20px auto;
+    width: 160px;
+    height: 160px;
+    background-size: 160px auto;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/estado-vazio/dicas.svg');
+  }
+
+  .titulo {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 22.2px;
+    color: #16222F;
+    letter-spacing: -0.5px;
+    text-align: center;
+    line-height: 30px;
+  }
+ 
+}

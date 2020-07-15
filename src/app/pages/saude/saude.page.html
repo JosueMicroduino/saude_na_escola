@@ -1,0 +1,166 @@
+<ion-content>
+
+  <div class="header"
+       slot="fixed">
+    <div class="votlar ion-activatable"
+         role="button"
+         (click)="voltarClicked()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </div>
+  </div>
+  <h1>
+    Faça uma avaliação do estado de saúde!
+  </h1>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+       Para quem é essa avaliação? 
+      </ion-label>
+    </ion-list-header>
+  
+    <ion-select [(ngModel)]= "quem" placeholder="Selecione uma opção" required = "true">
+      <ion-item>
+        <ion-select-option  value="eu">Para mim</ion-select-option>
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="familiar">Familiar</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option  value="colega">Colega de trabalho</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option  value="outro">Outro</ion-select-option> 
+      </ion-item>
+    </ion-select>
+
+  
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Qual a idade de quem está sendo avaliado?
+      </ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-input [(ngModel)]= "idade" placeholder = "Idade" class = "idade" type="number" vlaue ="" max ="110" min="0"></ion-input>
+    </ion-item>
+  </ion-list>
+  
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Quais sintomas a pessoas está sentindo?
+      </ion-label>
+    </ion-list-header>
+
+    <ion-select [(ngModel)]= "sintomas" placeholder ="Selecione os sintomas" multiple="true" style interface= "action-sheet"> 
+      <ion-item>
+        <ion-select-option value="falta_ar">Falta de ar</ion-select-option>
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="febre">Febre</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option  value="tosse">Tosse</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="dor_garganta">Dor de garganta</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="nenhum_sintoma">Nenhum</ion-select-option> 
+      </ion-item>
+    </ion-select>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Há quanto tempo sente esse(s) sintoma(s)?
+      </ion-label>
+    </ion-list-header>
+
+    <ion-select [(ngModel)]= "periodo" placeholder ="Selecione o perído">
+      <ion-item>
+        <ion-select-option value="hoje">Hoje</ion-select-option>
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="semana">1 a 7 dias</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option  value="quinzena">8 a 14 dias</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="mes">Mais de 14 dias</ion-select-option> 
+      </ion-item>
+    </ion-select>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Possui alguma dessas doenças?
+      </ion-label>
+    </ion-list-header>
+
+    <ion-select [(ngModel)]= "doencas" multiple = "true" placeholder ="Selecione doenças pré existentes">
+      <ion-item>
+        <ion-select-option value="diabetes">Diabetes</ion-select-option>
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="cadiaca">Doença cardíaca</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option  value="renal">Doença renal crônica</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="respiratoria">Doença respiratória crônica</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="pressao_alta">Pressão alta</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="nenhuma_doenca">Nenhuma</ion-select-option> 
+      </ion-item>
+    </ion-select>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Outros sinais e/ou sintomas?
+      </ion-label>
+    </ion-list-header>
+
+    <ion-select [(ngModel)]= "sinais" multiple = "true" placeholder ="Selecione os sinais e/ou sintomas">
+      <ion-item>
+        <ion-select-option value="roxo">Boca ou ponta dos dedos roxa</ion-select-option>
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="palidez">Palidez</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option  value="respiração">Repiração rápida</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="pressaõ_baixa">Pressão baixa</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="desmaio">Sensação de desmaio</ion-select-option> 
+      </ion-item>
+      <ion-item>
+        <ion-select-option value="nenhum_sinal">Nenhum</ion-select-option> 
+      </ion-item>
+    </ion-select>
+  </ion-list>
+
+
+
+  <ion-button class = "ok" (click)="saude()" fill="solid" expand="block" >CONFIRMAR</ion-button>
+
+  
+
+
+  
+</ion-content>

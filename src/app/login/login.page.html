@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar padding>
+    <ion-title>LOGIN</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+
+		<ion-item>
+		<ion-label position="stacked">E-mail</ion-label>
+		<ion-input type="email" [(ngModel)]="useremail"></ion-input>
+		</ion-item>
+			
+		<ion-item>
+		<ion-label position="stacked">Senha</ion-label>
+		<ion-input type="password" [(ngModel)]="password"></ion-input>
+		</ion-item>
+			
+	</ion-list>
+
+	<ion-button size = "small" fill="solid" expand="block" color="success tint" (click)="login()">Login</ion-button>
+
+	<span class="divider line one-line">ou</span>
+
+	<span class="already">Ainda não tem uma conta?</span>
+
+	<ion-button fill="solid" expand="block" color="dark" (click)="register()">Criar conta</ion-button>
+
+</ion-content>
+

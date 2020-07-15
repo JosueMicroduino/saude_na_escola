@@ -1,0 +1,109 @@
+<ion-content [scrollEvents]="true"
+             (ionScroll)="onScroll($event)">
+
+  <div class="header desktop-hidden"
+       slot="fixed"
+       [ngClass]="{'change-header': changeHeader }">
+    <h1 class="dicas-titulo">
+      <span>{{'DICAS.TITULO_PRIMARIO' | translate}}</span> {{'DICAS.TITULO_SECUNDARIO' | translate}}
+    </h1>
+    <h2 class="dicas-sub-titulo">
+      {{'DICAS.SUBTITULO' | translate}}
+    </h2>
+  </div>
+
+  <h1>
+    Dicas Oficiais
+  </h1>
+  <br>
+
+  <!--<div class="pesquisar-dicas">
+    <ion-searchbar placeholder="{{'DICAS.PLACEHOLDER_BUSCA' | translate}}" mode="ios"
+                   [(ngModel)]="pesquisarString" (ionChange)="pesquisar()">
+    </ion-searchbar>
+    <div class="pesquisar-botao ion-activatable"
+         role="button"
+         (click)="pesquisar()">
+      <ion-icon src="./assets/images/dicas/busca.svg"></ion-icon>
+    </div>
+  </div> -->
+
+  <div class="diagnostico-prevenir">
+    <div class="diagnostico ion-activatable"
+         role="button"
+         (click)="openDetalheDica(1)">
+      <div class="icone"></div>
+      <div class="titulo">Como é a transmissão?</div>
+    </div>
+    <div class="prevenir ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Fake News</div>
+    </div>
+  </div>
+  <br>
+  <div class="transmitir-fakenews">
+    <div class="transmitir ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Como é feito o diagnóstico?</div>
+    </div>
+    <div class="fakenews ion-activatable"
+         role="button"
+         (click)="openDetalheDica(2)">
+      <div class="icone"></div>
+      <div class="titulo">Como se previnir</div>
+    </div>
+  </div>
+
+  <div class="viajar-coronavirus">
+    <div class="viajar ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Informações para viajantes</div>
+    </div>
+    <div class="coronavirus ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">O que são os coronavírus?</div>
+    </div>
+  </div>
+
+  <div class="sintomas-mascara">
+    <div class="sintomas ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Quais são os sintomas?</div>
+    </div>
+    <div class="mascara ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Quando usar máscara?</div>
+    </div>
+  </div>
+
+  <div class="vacina-notificacao">
+    <div class="vacina ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Vacina</div>
+    </div>
+    <div class="notificacao ion-activatable"
+         role="button"
+         (click)="openDetalheDica()">
+      <div class="icone"></div>
+      <div class="titulo">Vigilância e notificações</div>
+    </div>
+  </div>
+
+
+  <br><br>
+
+</ion-content>

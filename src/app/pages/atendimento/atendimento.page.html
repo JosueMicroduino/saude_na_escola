@@ -1,0 +1,79 @@
+
+<ion-content>
+
+  <div class="header"
+       slot="fixed">
+    <div class="votlar ion-activatable"
+         role="button"
+         (click)="voltarClicked()">
+      <ion-icon name="close-outline"></ion-icon>
+    </div>
+  </div>
+
+  <h1>Caso de Urgência</h1>
+
+  <div class="veredito">
+    Baseado em suas respostas, é provável que esta situação se enquadre como caso 
+    suspeito de doença pelo coronavírus 2019 (COVID-19). No entanto, isto não se trata de um diagnóstico.
+  </div>
+
+  <div class="atendimento-red">
+    <div class="info">
+      <span>192</span>
+    </div>
+
+    <a class="ligar ion-activatable"
+       role="button"
+       href="tel:192">
+      Ligar
+    </a>
+  </div>
+
+  <div class="atendimento-pre">
+    <div class="info">
+      <p>Atendiemnto pré clinico</p>
+      <span>0800 591 8899</span>
+    </div>
+
+    <a class="ligar ion-activatable"
+       role="button"
+       href="tel:0800 591 8899" (click)="openAtendimentoPreClinico()">
+      Ligar
+    </a>
+  </div>
+
+  <div class="pre-itens">Caso opte se deslocar para um serviço de urgência, siga as seguintes medidas 
+    de proteção individual e etiqueta respiratória:</div>
+
+  <div class="item" >Opte por ter um acompanhante para auxiliá-lo no deslocamento até o serviço de urgência. O acompanhante deve utilizar uma máscara facial e lavar constantemente as mãos com água e sabão ou álcool em gel.</div>
+  <div class="item" >Busque imediatamente o serviço, não faça desvios de caminho e evite transportes públicos.</div>
+  <div class="item" >Utilize máscara facial para evitar a transmissão de outras pessoas durante o trajeto para o serviço de urgência.</div>
+  <div class="item" >Lave as mãos frequentemente com água e sabão ou higiene com álcool em gel 70%.</div>
+  <div class="item" >Cubra a boca e nariz com um lenço de papel ao tossir e/ou espirrar e jogue no lixo após o uso, ou proteja com o antebraço (nunca com as mãos).</div>
+  <div class="item" >Evite locais com aglomeração de pessoas. Não compartilhe objetos de uso pessoal.</div>
+
+  <div class="encontre-dicas">
+    <div class="encontre ion-activatable"
+         role="button"
+         (click)="encontre()">
+      <div class="icone"></div>
+      <div class="titulo">Unidades de Saúde</div>
+      <div class="sub-titulo">Encontre as unidades mais próximas</div>
+    </div>
+    <div class="dicas ion-activatable"
+         role="button"
+         (click)="verDicas()">
+      <div class="icone"></div>
+      <div class="titulo">Dicas</div>
+      <div class="sub-titulo">O que você precisa saber e fazer</div>
+    </div>
+  </div>
+
+  <div class="ok ion-activatable"
+       role="button"
+       (click)="voltarClicked()">
+    OK
+  </div>
+
+</ion-content>
+
