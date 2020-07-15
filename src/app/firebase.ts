@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCu66Bbnpl7Zs1F-pLsOmQg10V5zFm-f8w",
+    apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     authDomain: "saude-na-escola.firebaseapp.com",
-    databaseURL: "https://saude-na-escola.firebaseio.com",
+    databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     projectId: "saude-na-escola",
-    storageBucket: "saude-na-escola.appspot.com",
-    messagingSenderId: "953692605715",
+    storageBucket: "xxxxxxxxxxxxxxxxxxxxxxx",
+    messagingSenderId: "xxxxxxxxxxxxxxx",
     appId: "1:953692605715:web:ddd51b5dd945edabfcdee6",
     measurementId: "G-BEJMY14JGZ"
   };
