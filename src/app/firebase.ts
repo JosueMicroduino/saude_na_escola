@@ -1,12 +1,12 @@
 const firebaseConfig = {
     apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    authDomain: "saude-na-escola.firebaseapp.com",
+    authDomain: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     databaseURL: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    projectId: "saude-na-escola",
+    projectId: "xxxxxxxxxxxxxxxxxxx",
     storageBucket: "xxxxxxxxxxxxxxxxxxxxxxx",
     messagingSenderId: "xxxxxxxxxxxxxxx",
-    appId: "1:953692605715:web:ddd51b5dd945edabfcdee6",
-    measurementId: "G-BEJMY14JGZ"
+    appId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    measurementId: "xxxxxxxxxxxxxxxxxx"
   };
 
 export default firebaseConfig
